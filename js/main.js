@@ -22,7 +22,7 @@ if (age1 < 18){
 }
 
 //Sconto maggiorenni
-if (age1 > 65){
+if (age1 >= 65){
     price1 -= (price1 * 40) / 100;
 }
 
